@@ -1,0 +1,47 @@
+body{
+	margin: 0 0 0 0;
+}
+
+#top_container{
+	height: 50px;
+	width: 50%;
+	text-align: center;
+	font-size: 18px;
+	border: solid;
+	border-radius: 20px;
+	border-width: 2px;
+	border-color: black;
+}
+
+#image_container{
+	height: 350px;
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+	border: solid;
+	border-radius: 20px;
+	border-width: 2px;
+	border-color: black;
+}
+
+#text_container{
+	height: 200px;
+	width: 50%;
+	text-align: center;
+	font-size: 18px;
+	border: solid;
+	border-radius: 20px;
+	border-width: 2px;
+	border-color: black;
+}
+
+#choice_container{
+	height: 50px;
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+	border: solid;
+	border-radius: 20px;
+	border-width: 2px;
+	border-color: black;
+}
