@@ -1,0 +1,90 @@
+{
+	"player":{
+
+		"name":"me",
+		"race":"warrior",
+		"strength":8,
+		"speed":6,
+		"dex":5,
+		"magic":1,
+		"mana":1,
+		"hitPoints":20,
+		"inventory":{
+			"weapons":["short sword"],
+			"armor":[],
+			"items":[],
+			"spells":[]
+		}
+	},
+
+	"weapons":{
+		
+		"short sword":[3],
+		"long sword":[],
+		"rusty long sword":[],
+		"enchanted sword":[],
+		"magic sword":[],		
+	
+		"short bow":[],
+		"long bow":[],
+		"enchanted bow":[],
+		"magic bow":[],
+	
+		"dagger":[],
+		"long Knife":[],
+	
+		"rock axe":[],
+		"iron axe":[],
+		"steel axe":[],
+		"enchanted axe":[],
+		"magic axe":[],
+	
+		"wooden club":[],
+		"spiked club":[],
+		"iron club":[],
+		"mace":[],
+		"enchanted mace":[],
+		"magic mace":[],
+	
+		"short spear":[],
+		"long spear":[],
+		"enchanted spear":[],
+		"magic":[]		
+	},
+	
+	"locations":{
+
+		"town":{
+			"description": "You are in town. Where would you like to go?",
+			"todo":{
+				"home":["chest", "desk", "bookshelf"],
+				"tavern":["bartender", "waitress", "plainsman", "old man"],
+				"blacksmith":{
+					"weapons":[],
+					"armor":[]
+				}
+			}	
+		},
+		"wren":{
+			"description":"You are now in Wren. What would you like to do?",
+			"todo":{
+				"high sorcerer":[],
+				"library":{
+					"books":[]
+				},
+				"vendor":{
+					"potions":[],
+					"scrolls":[],
+					"charms":[]
+				}
+			}
+		},
+		"phalodum":{
+			"description":"You are in the training camp in Phalodum. What would you like to do?",
+			"todo":{
+				"commander":[],
+				"training":[]
+			}
+		}
+	}
+}
